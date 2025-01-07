@@ -44,7 +44,6 @@ dependencies {
 
 tasks.withType<Test> {
 	useJUnitPlatform()
-	jvmArgs(sha)
 }
 
 
